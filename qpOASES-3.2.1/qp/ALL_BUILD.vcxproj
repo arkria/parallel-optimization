@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5530E411-6E50-30FD-99B8-43D92CC8AFEB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\bin\cmake.exe -SE:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1 -BE:/software_download/NumericalComputation/qpOASES-3.2.1/qp --check-stamp-file E:/software_download/NumericalComputation/qpOASES-3.2.1/qp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\bin\cmake.exe -SE:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1 -BE:/software_download/NumericalComputation/qpOASES-3.2.1/qp --check-stamp-file E:/software_download/NumericalComputation/qpOASES-3.2.1/qp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\bin\cmake.exe -SE:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1 -BE:/software_download/NumericalComputation/qpOASES-3.2.1/qp --check-stamp-file E:/software_download/NumericalComputation/qpOASES-3.2.1/qp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\bin\cmake.exe -SE:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1 -BE:/software_download/NumericalComputation/qpOASES-3.2.1/qp --check-stamp-file E:/software_download/NumericalComputation/qpOASES-3.2.1/qp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeRCInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\Windows.cmake;E:\software_download\cmake-3.13.0-rc1-win64-x64\cmake-3.13.0-rc1-win64-x64\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\ZERO_CHECK.vcxproj">
+      <Project>{578DF6D0-D831-3805-8031-C2B349860DBC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example1.vcxproj">
+      <Project>{F53D3C89-3835-330B-BB84-A7D107AC5882}</Project>
+      <Name>example1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example1a.vcxproj">
+      <Project>{F63392A0-997E-3D22-B8D6-4E32731AE5F7}</Project>
+      <Name>example1a</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example1b.vcxproj">
+      <Project>{2BCA9E52-B670-34BC-BDF5-62CBD54F2E4F}</Project>
+      <Name>example1b</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example2.vcxproj">
+      <Project>{BD5CBBF7-39B1-3B52-9544-92F1C5F3D0A5}</Project>
+      <Name>example2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example3.vcxproj">
+      <Project>{F0A3E762-6B03-3BDB-B512-027B0AA95C77}</Project>
+      <Name>example3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example3b.vcxproj">
+      <Project>{053707EE-76E8-37C0-BE69-57D9E08F2CF0}</Project>
+      <Name>example3b</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example4.vcxproj">
+      <Project>{AF61DECD-00AD-3962-BC35-9A3E796AF36E}</Project>
+      <Name>example4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\example5.vcxproj">
+      <Project>{109353B6-BFA1-3B15-8B9A-C4F350A10F64}</Project>
+      <Name>example5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\exampleLP.vcxproj">
+      <Project>{D9DDF151-5BE1-33DA-BBAC-4F4966DC3557}</Project>
+      <Name>exampleLP</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\qpOASES.vcxproj">
+      <Project>{6B323EEE-AD85-34FA-A9EF-310404A69EDA}</Project>
+      <Name>qpOASES</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\qrecipe.vcxproj">
+      <Project>{5B1B0368-AC13-3CF5-B275-3111A9F6DF24}</Project>
+      <Name>qrecipe</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\qrecipeSchur.vcxproj">
+      <Project>{A76B5947-B939-3CFA-9ACB-9B585ADB8D02}</Project>
+      <Name>qrecipeSchur</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

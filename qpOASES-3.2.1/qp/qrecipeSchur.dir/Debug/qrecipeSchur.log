@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/software_download/NumericalComputation/qpOASES-3.2.1/qpOASES-3.2.1/CMakeLists.txt
+  CMake does not need to re-run because E:/software_download/NumericalComputation/qpOASES-3.2.1/qp/CMakeFiles/generate.stamp is up-to-date.
+  qrecipeSchur.cpp
+  qrecipeSchur.vcxproj -> E:\software_download\NumericalComputation\qpOASES-3.2.1\qp\bin\Debug\qrecipeSchur.exe
+  qrecipeSchur.vcxproj -> E:/software_download/NumericalComputation/qpOASES-3.2.1/qp/bin/Debug/qrecipeSchur.pdb (Full PDB)

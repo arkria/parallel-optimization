@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\BLASReplacement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\Bounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\Constraints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\Flipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\Indexlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\LAPACKReplacement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\Matrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\MessageHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\OQPinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\QProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\QProblemB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\SQProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\SQProblemSchur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\SolutionAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\SparseSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\SubjectTo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{58C0FD3B-13F5-33A4-9505-AE11CA4F308D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

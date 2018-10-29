@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\examples\example1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\software_download\NumericalComputation\qpOASES-3.2.1\qpOASES-3.2.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{58C0FD3B-13F5-33A4-9505-AE11CA4F308D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

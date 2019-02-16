@@ -8,5 +8,5 @@ For more information of ADMM, you can read this paper [Distributed optimization 
 ## Performance
 A good performance is obtained
 ### fix node vs adaptive node
-![fix vs adaptive](https://github.com/arkria/parallel-optimal/figure/syn_perf.pdf)
+![fix vs adaptive](https://github.com/arkria/parallel-optimization/blob/master/figure/syn_perf.pdf)
 

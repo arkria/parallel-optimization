@@ -10,3 +10,5 @@ A good performance is obtained
 ### fix node vs adaptive node
 ![fix vs adaptive](https://github.com/arkria/parallel-optimization/blob/master/figure/syn_perf.pdf)
 
+### syn node asy
+![syn vs asy](https://github.com/arkria/parallel-optimization/blob/master/figure/syn_perf.pdf)
